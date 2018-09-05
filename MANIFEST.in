@@ -1,0 +1,2 @@
+recursive-include aliyun_api/api/*
+recursive-include aliyun_api/common/*
