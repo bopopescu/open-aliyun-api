@@ -4,8 +4,8 @@ open aliyun api , such as dns 、slb、vps and so on
 ### 阿里云SLB api接口
 
    >目前要尽可能做到全自动化， 目前后端的上线操作要通过页面的SLB对后端的服务器设置权重来确保操作的正确性。  
-   >所以研究阿里云的SLB api接口调用是全自动化必然走的一个过程， 阿里云的SLB api接口传参后的签名是个坑,  
-   >现在实现了SLB api接口类的封装， SLB 公共参数在common的config的Slb.py配置，api各接口参数形成一  
+   >所以研究阿里云的SLB api接口调用是全自动化必然走的一个过程， 阿里云的SLB api接口传参后的签名是个坑,    
+   >现在实现了SLB api接口类的封装， SLB 公共参数在common的config的Slb.py配置，api各接口参数形成一    
    >个字典，传递字典就能返回完整的URL， 调用相关请求方法就能返回json结果。
 
 ### 要求版本
